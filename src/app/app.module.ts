@@ -17,6 +17,7 @@ import { AboutusComponent } from './aboutus/aboutus.component';
 import { ServicesComponent } from './services/services.component';
 import { AdminhomeComponent } from './adminhome/adminhome.component';
 import { AdminbodyComponent } from './adminbody/adminbody.component';
+import { RatingdialogComponent } from './ratingdialog/ratingdialog.component';
 
 @NgModule({
   declarations: [
@@ -33,7 +34,8 @@ import { AdminbodyComponent } from './adminbody/adminbody.component';
     AboutusComponent,
     ServicesComponent,
     AdminhomeComponent,
-    AdminbodyComponent
+    AdminbodyComponent,
+    RatingdialogComponent
   ],
   imports: [
     BrowserModule,

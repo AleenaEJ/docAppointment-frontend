@@ -1,3 +1,4 @@
+import { AdminhomeComponent } from './adminhome/adminhome.component';
 import { RegisterComponent } from './register/register.component';
 import { LandingComponent } from './landing/landing.component';
 import { LoginComponent } from './login/login.component';
@@ -16,6 +17,8 @@ const routes: Routes = [
   { path: 'login', component: LoginComponent },
   { path: 'landing', component: LandingComponent },
   { path: 'register', component: RegisterComponent },
+  { path: 'adminhome', component: AdminhomeComponent },
+
   
 ];
 
