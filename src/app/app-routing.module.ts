@@ -10,6 +10,7 @@ import { UserhomeComponent } from './userhome/userhome.component';
 import { ServicesComponent } from './services/services.component';
 
 const routes: Routes = [
+  {path:'',redirectTo:'/landing',pathMatch:'full'},
   { path: 'userhome', component: UserhomeComponent },
   { path: 'rating', component: RatingComponent },
   { path: 'aboutus', component: AboutusComponent },
