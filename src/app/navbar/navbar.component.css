@@ -64,9 +64,9 @@
   
   
   
-  nav li a:hover {
+  nav li a:hover{
   
-    color: #ff8c69;
+    color: #b7ccf3;
     transition: all 0.4s ease 0%;
   
   }
@@ -134,3 +134,5 @@
         font-size: 36px;
       }
     }
+    
+
